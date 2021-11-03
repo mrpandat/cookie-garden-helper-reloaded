@@ -695,7 +695,8 @@ Game.registerMod("cookiegardenhelperreloaded",{
 			if(l>=7){
 				var Q = [21,0]
 				var X = [0,0]
-				return  [X,X,X,X,X,X],
+				return  
+					[X,X,X,X,X,X],
 					[X,Q,Q,Q,Q,Q],
 					[X,Q,X,Q,X,Q],
 					[X,Q,Q,Q,Q,Q],
@@ -704,7 +705,8 @@ Game.registerMod("cookiegardenhelperreloaded",{
 				];
 			}
 			if(l>=3){
-				return 	[X,X,X,X,X,X],
+				return 	
+					[X,X,X,X,X,X],
 					[X,X,X,X,X,X],
 					[X,X,X,X,X,X],
 					[X,X,X,Q,Q,Q],
